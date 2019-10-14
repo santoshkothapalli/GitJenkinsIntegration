@@ -1,7 +1,7 @@
 node {
     stage('Version Check'){
-           echo("---starting the process");
-    bat 'mvn --version' 
+           echo("---starting jenkins build process");
+    bat 'node --version' 
     }
 
 }
